@@ -17,7 +17,7 @@ function readText() {
       line.close();
       return;
     }
-   
+
     writeFile(data + '\n');
     readText();
   });
